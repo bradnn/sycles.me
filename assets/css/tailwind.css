@@ -1,0 +1,205 @@
+* {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 400;
+    margin-block-start: 0.47em;
+    margin-block-end: 0.47em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-block-start: 0.47em;
+    margin-block-end: 0.47em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    color: #CCC;
+    display: block;
+    max-width: 40rem;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p > a {
+    color: #ff9eb5;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    top: 0px;
+    left: 0px;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    max-width: 60rem;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-btn {
+    margin-right: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.social-btn > img {
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+}
+
+.my-name {
+    color: #FFF;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.pages {
+    display: inline-block;
+    padding-top: 1px;
+}
+
+.pages > a {
+    color: rgb(200, 200, 200);
+    padding: 0px 10px;
+    transition: 0.3s;
+}
+
+.pages > a.nuxt-link-exact-active {
+    color: #fff;
+}
+
+.pages > a:hover {
+    color: #FFF;
+}
+
+.discord-data {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid rgb(16, 16, 16);
+    border-radius: 5px;
+    width: 370px;
+    height: 80px;
+}
+
+.discord-img {
+    max-height: 55px;
+    max-width: 55px;
+
+    border-radius: 5px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+.discord-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+.discord-big {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.discord-small {
+    color: #CCC;
+    font-size: 14px;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid rgb(16, 16, 16);
+    overflow: hidden;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+}
+
+.section {
+    border-radius: 0;
+    height: 100%;
+    border-right: 1px solid rgb(16, 16, 16);
+}
+
+.name {
+    width: 150px;
+}
+
+.tech {
+    width: 150px;
+}
+
+.description {
+    border-right: none;
+}
+
+.section {
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.table:hover {
+    background-color: rgb(16, 16, 16);
+}
+
+.section > h3 {
+    color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+.section > p {
+    color: #CCC;
+    margin-top: 0.3rem;
+}
+
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.javascript {
+    background-color: #f1e05a;
+}
