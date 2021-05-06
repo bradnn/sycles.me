@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'sycles.me',
+    title: 'sycles',
     htmlAttrs: {
       lang: 'en'
     },
@@ -39,7 +39,21 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    ['nuxt-fontawesome', {
+      imports: [
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['fas']
+        }
+      ]
+    }]
   ],
+
+  colorMode: {
+    preference: 'dark',
+    fallback: 'dark'
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
